@@ -16,7 +16,7 @@ namespace CustomerMicroservice.Repository
         {
             new CustomerDetails{CustomerId = "JhonSmith",Name="Jhonathon Smith",Address="Dumdum",DateOfBirth="05-09-1997",PanNumber="CGLBP002"}
         };
-        Uri baseAddress = new Uri("https://localhost:44379/api/Account");
+        Uri baseAddress = new Uri("http://20.236.69.238/api/Account");
         HttpClient client;
         public CustomerRepository()
         {
